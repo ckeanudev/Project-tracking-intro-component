@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+  </head>
+  <body>
+    <section class="home_container">
+      <div class="floating_element_bg"></div>
+      <div class="inner_home_container">
+        <nav>
+          <img src="./images/logo.svg" alt="" srcset="" />
+          <p class="navbar_btn">
+            <img
+              id="navBarBtn"
+              src="./images/icon-hamburger.svg"
+              alt=""
+              srcset=""
+              onclick="viewNavLinks()"
+            />
+          </p>
+          <div id="nav_links" class="nav_links">
+            <p class="dark_links">Product</p>
+            <p class="dark_links">Features</p>
+            <p class="dark_links">Pricing</p>
+            <i class="fas fa-circle gray_links"></i>
+            <hr class="gray_links" />
+            <p class="gray_links login_btn">Login</p>
+          </div>
+        </nav>
+
+        <div class="home_content">
+          <div class="left_content">
+            <p class="first_p_content"><a>New</a> Monograph Dashboard</p>
+            <h1>
+              Powerful insights <br />
+              into your team
+            </h1>
+            <p class="second_p_content">
+              Project planning and time tracking <br />
+              for agile teams
+            </p>
+            <div class="inner_left_content">
+              <button class="schedule_btn">Schedule a demo</button>
+              <p class="third_p_content">to see a live preview</p>
+            </div>
+          </div>
+          <div class="right_content">
+            <img src="./images/illustration-devices.svg" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/ckeanudev" target="_blank">Ckeanu.</a>.
+      </p>
+    </footer>
+  </body>
+</html>
+
+<script src="./script.js"></script>
